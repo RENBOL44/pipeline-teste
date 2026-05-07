@@ -1,0 +1,12 @@
+name: Pipeline Simples
+
+on:
+  push:
+
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Mensagem
+        run: echo "Funcionando!"
